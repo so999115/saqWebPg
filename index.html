@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no"/>
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=720">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  <script defer src="js/jquery.flexslider.js"></script>
+ 
+  <title>SAQ Design</title>
+<link rel="shortcut icon" type="image/x-icon" href="pic/favicon.jpg" />
+
+
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/mmenu.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<style type = "text/css">	
+
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.eot')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.otf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.otf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.ttf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.ttf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.woff')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.woff')}
+
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.ttf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.ttf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.woff')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.woff')}
+@font-face {
+  font-family: 'flexslider-icon';
+  src: url('fonts/flexslider-icon.eot');
+  src: url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('fonts/flexslider-icon.woff') format('woff'), url('fonts/flexslider-icon.ttf') format('truetype'), url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ html,body{ margin: 0%; width: 100%; height: 100%;padding: 0%;}
+ ul{list-style-type : none;}
+.mmenu{margin-top: -23%;}
+ </style>
+
+ <script>
+ 	
+ 		var url = "https://www.saqdesign.com/"
+	
+		if ( window.location !=url ) {
+			
+		 window.location.href = url;
+		}
+    // html dom 이 다 로딩된 후 실행된다.
+    $(document).ready(
+    	function(){
+        // menu 클래스 바로 하위에 있는 a 태그를 클릭했을때
+        $(".menu>a").click(function(){
+            var submenu = $(this).next("ul");
+ 
+            // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+            if( submenu.is(":visible") ){
+                submenu.slideUp();
+            }else{
+                submenu.slideDown();
+            }
+        });
+     $("#seeMoreBox>input").click(function(){
+     	
+     	
+            	document.getElementById("seeMoreBtn").style.height ="0px";
+            	document.getElementById("seeMore").style.marginTop ="-40px";
+			    $('#seeMore').slideDown('slow');
+            
+            	/*$( '#seeMoreBtn' ).hide(1000, function() {
+            	document.getElementById("seeMoreBtn").style.height ="0px";
+			    $('#seeMore').slideDown('slow');
+			  });
+                */
+            
+        });
+
+	    $(".scroll").click(function(event){ event.preventDefault(); $('html,body').animate({scrollTop:$('html,body').offset().top}, 500); });
+
+	    }
+    );
+</script>
+
+
+
+
+ <body>
+<div id ="fbar"   >
+
+	<div id ="menu">
+
+	<div class='fbarMenu'    >
+	 <a  href="index.html">home</a></div>
+
+	<div class='fbarMenu'    >
+	 <a  href="works.html">works</a></div>
+
+	
+	<div class='fbarMenu'   >
+	 <a  href="about.html">about</a></div>
+
+	
+	<div class='fbarMenu'     >
+	 <a  href="contact.html">contact</a></div>
+
+	
+	<div class='mainLogo'>
+	 <a  href="index.html" ><img src="pic/newimage/toplogo.png"></a></div>
+
+	</div>
+
+
+	<div id = mobile > 
+	<table >
+  <tr>
+    <td id = "mlogo" >
+  	<a href="index.html" ><img src="pic/newimage/toplogo.png"></a> 
+  	</td>
+
+    <td id = "mmenu">
+     <ul class="mmenu_ul">
+        <li class="menu">
+           <a>MENU</a>
+            <ul class="hide" >
+                <li><a href="index.html">HOME </a></li>
+                <li><a href="works.html">WORK </a></li>
+                <li><a href="about.html">ABOUT </a></li>
+                <li><a href="contact.html">CONTACT </a></li>
+		      </ul>
+        </li>
+     </ul>
+    </td>
+  </tr>
+	</table >
+	</div>
+
+	</div>
+	
+	</div>
+
+<div id = "content">
+<!-- slide view -->
+        <div class="slider">
+          <div class="flexslider">
+            <ul class="slides">
+            	<li>
+    	    	    <img src="pic/mainSlide/0.jpg" height="100%"/>
+    	    		</li>
+              		<li>
+    	    	    <a href="works/kachercleaner.html"><img src="pic/mainSlide/1.jpg" height="100%" /></a>
+    	    		</li>
+    	    		<li>
+    	    	    <a href="wdehumidifier2.html"><img src="pic/mainSlide/2.jpg" height="100%" /></a>
+    	    		</li>
+    	    		<li>
+    	    	    <a href="works/archidraw.html"><img src="pic/mainSlide/3.jpg" height="100%" /></a>
+    	    		</li>
+    	    		<li>
+    	    	    <a href="wgs.html"><img src="pic/mainSlide/4.jpg" height="100%" /></a>
+    	    		</li>
+    	    		<li>
+    	    	    <a href="works/mbd_asfa.html"><img src="pic/mainSlide/5.jpg" height="100%" /></a>
+    	    		</li>
+    	    		<li>
+    	    	    <a href="works/701.html"><img src="pic/mainSlide/6.jpg" height="100%" /></a>
+    	    		</li>
+    	    		<!--<li>
+    	    	    <img src="images/kitchen_adventurer_donut.jpg" />
+    	    		</li>
+    	    		<li>
+    	    	    <img src="images/kitchen_adventurer_caramel.jpg" />
+    	    		</li> -->
+            </ul>
+          </div>
+        </div>
+        
+
+ 
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+   
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+<!-- gridMenU -->
+	<div id="gridView">
+	<div class = "label">our works</div>
+	<ul class="grid">
+	                
+	<li ><a href="works/kachercleaner.html"><img src="mainimg/n1.jpg" />
+	<div><p class="center">KARCHER | Steam Cleaner</p></div></a></li>
+	                
+	<li ><a href="works/archidraw.html"><img src="mainimg/n3.jpg" />
+	<div><p class="center">ARCHIDRAW | Mobile 3D Scanner</p></div></a></li>
+	                
+	<li ><a href="works/luhens.html"><img src="mainimg/n9.jpg" />
+	<div><p class="center">RUHENS | WHP-3000</p></div></a></li>
+	                
+	<li ><a href="works/701.html"><img src="mainimg/n7.jpg" />
+	<div><p class="center">Originwater | 701 Water Purifier</p></div></a></li>
+	                
+	<li ><a href="wdehumidifier2.html"><img src="mainimg/46.jpg" />
+	<div><p class="center">Winix | Dehumidfier</p></div></a></li>
+	                
+	<li ><a href="works/768.html"><img src="mainimg/n5.jpg" />
+	<div><p class="center">Originwater | 768 Water Purifier</p></div></a></li>
+	                
+	<li  ><a href="wbiomist.html"><img src="mainimg/8.jpg" />
+	<div><p class="center">Biomist | Aroma Diffuser</p></div></a></li>
+	                
+	<li ><a href="works/mbd_asfa.html"><img src="mainimg/n10.jpg" />
+	<div><p class="center">MBD | ASFA™ Spotter</p></div></a></li>  
+	                
+	<li  ><a href="wgs.html"><img src="mainimg/18.jpg" />
+	<div><p class="center">GS Caltex | Engine Oil Bottle</p></div></a></li>
+	                
+	<li  ><a href="works/lihandduk.html"><img src="mainimg/n8.jpg" />
+	<div><p class="center">LIHAN | Induction Clay Pot</p></div></a></li>
+
+	<li  ><a href="w601.html"><img src="mainimg/35.jpg" />
+	<div><p class="center">Originwater | 601 Water Purifier</p></div></a></li>  
+	                
+	<li  ><a href="wwizyoung.html"><img src="mainimg/13.jpg" />
+	<div><p class="center">Wizyoung | Nailgel Lamp</p></div></a></li>
+	                
+	<li  ><a href="works/725.html"><img src="mainimg/n6.jpg" />
+	<div><p class="center">Originwater | 725 Water Purifier</p></div></a></li>
+	  
+	<li ><a href="wsb7.html"><img src="mainimg/12.jpg" />
+	<div><p class="center">Solt | SB-7 Callbell</p></div></a></li>
+
+	<li  ><a href="w608.html"><img src="mainimg/34.jpg" />
+	<div><p class="center">Originwater | 608 Water Purifier</p></div></a></li>
+	              
+	<li  ><a href="wseparator.html"><img src="mainimg/2.jpg" />
+	<div><p class="center">Deawoong | Stem Sell Separator</p></div></a></li>
+
+	<li  ><a href="works/vatech.html"><img src="mainimg/n4.jpg" />
+	<div><p class="center">Vatech | EZRay Air Wall </p></div></a></li>
+
+	<li  ><a href="works/chp4010s.html"><img src="mainimg/n11.jpg" />
+	<div><p class="center">Chungho | Stand-type Water Purifier </p></div></a></li>
+
+	<li  ><a href="whandok.html"><img src="mainimg/19.jpg" />
+	<div><p class="center">Handok | Blood Glucose Monitors</p></div></a></li>
+	                
+	<li  ><a href="wprinter2.html"><img src="mainimg/5.jpg" />
+	<div><p class="center">Sewoo | Portable Printer</p></div></a></li>
+
+	<li  ><a href="works/assaabloy.html"><img src="mainimg/n2.jpg" />
+	<div><p class="center">ASSAABLOY | Digital Camlock</p></div></a></li>
+	                              
+	<li  ><a href="wmagone.html"><img src="mainimg/23.jpg" />
+	<div><p class="center">Magone | Tow-way Radio</p></div></a></li>
+	                
+	<li  ><a href="wfoodtray.html"><img src="mainimg/9.jpg" />
+	<div><p class="center">Pulmuone ECMD | Food Tray</p></div></a></li>
+
+	<li  ><a href="wpromade.html"><img src="mainimg/10.jpg" />
+	<div><p class="center">Promade | Trash Bin</p></div></a></li>
+	                                
+	<li  ><a href="wslimmer.html"><img src="mainimg/44.jpg" />
+	<div><p class="center">Leadpower | Vacuumslimmer</p></div></a></li>
+
+	<li  ><a href="works/chunghobidet.html"><img src="mainimg/n12.jpg" />
+	<div><p class="center">Chungho | Bidet Hwi-Clean Nais S</p></div></a></li>
+
+	<li  ><a href="wprinter1.html"><img src="mainimg/14.jpg" />
+	<div><p class="center">Sewoo | Portable Printer</p></div></a></li>
+	                
+	<li  ><a href="wgeithainer.html"><img src="mainimg/16.jpg" />
+	<div><p class="center">Geithainer | Cookware</p></div></a></li>
+	                
+	<li  ><a href="wblaupunkt.html"><img src="mainimg/32.jpg" />
+	<div><p class="center">Blaupunkt | Motorcycle GPS</p></div></a></li>
+	                
+	                
+	<li  ><a href="wls1.html"><img src="mainimg/29.jpg" />
+	<div><p class="center">LS | LED Stand</p></div></a></li>
+	                
+	                
+	<li  ><a href="wvedetta.html"><img src="mainimg/41.jpg" />
+	<div><p class="center">Cobra | Vedetta Radar Detector</p></div></a></li>
+	                
+	<li  ><a href="wairpot.html"><img src="mainimg/42.jpg" />
+	<div><p class="center">LIHAN | Airpot Cookware</p></div></a></li>
+
+					
+	<li  ><a href="wlocker.html"><img src="mainimg/43.jpg" />
+	<div><p class="center">ASSAABLOY | Cabinet Lock</p></div></a></li>
+
+	
+
+	</ul>
+	<div>
+	<center id="seeMoreBox">
+	<input type="button" id="seeMoreBtn" value="See More" />
+	</center>
+	<!--  -->
+	<ul id="seeMore" class="grid" style="display: none;">
+	                
+	<li  ><a href="wls2.html"><img src="mainimg/3.jpg" />
+	<div><p class="center">LS | Concept LED Stand</p></div></a></li>
+ 
+	                
+	<li  ><a href="wspeaker.html"><img src="mainimg/20.jpg" />
+	<div><p class="center">Doosung | Paper Speaker</p></div></a></li> 
+	                
+	 <li  ><a href="wcera.html"><img src="mainimg/1.jpg" />
+	<div><p class="center">Lihan | Cera Cast Iron Cookware</p></div></a></li> 
+
+	<li  ><a href="wunilock.html"><img src="mainimg/21.jpg" />
+	<div><p class="center">Unilock | Loxury II Digital Doorlock</p></div></a></li> 
+	                
+	<li  ><a href="wdishsoap.html"><img src="mainimg/17.jpg" />
+	<div><p class="center">Lihan | Dish Soap Bottle</p></div></a></li>
+	                
+	<li  ><a href="wsb3.html"><img src="mainimg/28.jpg" />
+	<div><p class="center">Solt | SB-3 Callbell</p></div></a></li> 
+	                
+	<li  ><a href="wpolisher.html"><img src="mainimg/30.jpg" />
+	<div><p class="center">Hankook Narac | Rice Polisher</p></div></a></li>
+	                
+	<li  ><a href="wfrypan.html"><img src="mainimg/36.jpg" />
+	<div><p class="center">Lihan | Frypan Concept</p></div></a></li> 
+	                
+	<li  ><a href="wecobi.html"><img src="mainimg/33.jpg" />
+	<div><p class="center">Ecobi | LED Street Lighting</p></div></a></li>
+	                
+	<li  ><a href="wsmardi.html"><img src="mainimg/38.jpg" />
+	<div><p class="center">Smardi | Glucose Monitor</p></div></a></li>
+
+	<li  ><a href="wicu.html"><img src="mainimg/39.jpg" />
+	<div><p class="center">ICU | Blackbox</p></div></a></li> 
+	                
+	<li  ><a href="wdi.html"><img src="mainimg/4.jpg" />
+	<div><p class="center">DI | Wafer Test Chamber</p></div></a></li>
+	                
+	<li  ><a href="wtravelbag.html"><img src="mainimg/6.jpg" />
+	<div><p class="center">Viamonoh | Travelbag</p></div></a></li>
+	          
+	<li  ><a href="wspx.html"><img src="mainimg/25.jpg" />
+	<div><p class="center">Cobra | SPX Radar Detector</p></div></a></li>
+	                
+	<li  ><a href="whenckels.html"><img src="mainimg/15.jpg" />
+	<div><p class="center">Henckels | Nailclipper</p></div></a></li>
+	                
+	<li  ><a href="wswan.html"><img src="mainimg/11.jpg" />
+	<div><p class="center">Lihan | Kitchentools</p></div></a></li>
+
+	<li  ><a href="wprocessor.html"><img src="mainimg/24.jpg" />
+	<div><p class="center">HanQaee | Food Processor</p></div></a></li>
+	                
+	<li  ><a href="wvideophone.html"><img src="mainimg/31.jpg" />
+	<div><p class="center">LS | Videophone</p></div></a></li>
+	                
+	<li  ><a href="wgt.html"><img src="mainimg/7.jpg" />
+	<div><p class="center">GT | Wafer Test Chamber</p></div></a></li> 
+	                
+	<li  ><a href="wrdvr.html"><img src="mainimg/40.jpg" />
+	<div><p class="center">Inspector | RD+DVR Combo</p></div></a></li> 
+	                
+	<li  ><a href="wamigo.html"><img src="mainimg/37.jpg" />
+	<div><p class="center">Ennavi | Amigo Navigation</p></div></a></li>
+
+	<li  ><a href="wbacktrack.html"><img src="mainimg/22.jpg" />
+	<div><p class="center">Bushnell | Backtrack Trekking GPS</p></div></a></li>
+	                
+	<li  ><a href="wls3.html"><img src="mainimg/27.jpg" />
+	<div><p class="center">LS | Concept LED Stand</p></div></a></li>
+	                                
+	<li  ><a href="wdaesung.html"><img src="mainimg/26.jpg" />
+	<div><p class="center">DS | T&H Test Chamber</p></div></a></li>
+
+	</ul>
+	</div>
+	</div>
+
+
+
+<!-- contain content box -->
+<div id = bbar >
+<table   width = "100%" height = "100%" >
+  <tr>
+    <td class="bottomlogoBox">
+    <a href="#" class="scroll"><img class="bottomlogo" src="pic/newimage/bottomlogo.png"/></a>
+    </td>
+    <td class="addressBox">
+      <div class="bottomAddress">
+        <div class="addressKo">(주)삭디자인 컨설팅_서울시 서초구 남부순환로337가길, 43-8(2F)</div>
+        <div class="addressEn">
+          SAQ Design Consulting Inc. 43-8, Nambusunhwan-ro 337ga-gill<br>
+        Seocho-gu Seoul Korea. 06710
+        </div>
+      </div>  
+    </td>
+    <td>
+      <div class="bottomContact">
+        <div class='imgBox'>
+        <a href="https://www.facebook.com/pg/SAQdesign/posts/"><img src="pic/newimage/facebook.png"/></a>
+        <a href="https://www.instagram.com/saqdesign_co/"><img src="pic/newimage/insta.png"/></a>
+            <a href="https://blog.naver.com/PostList.nhn?blogId=saqdesign"><img src="pic/newimage/blog.png"/></a>
+        </div> 
+        <div class="contactTxt">
+          T. +82 2 521 3581<br>
+          F. +82 2 521 3582<br>
+          M. webmaster@saqdesign.com
+        </div>
+      </div>
+    </td>
+  </tr>
+  </table >
+    </div><!--bar end -->
+ </body>
+</html>
+
+</div>
+ </body>
+</html>

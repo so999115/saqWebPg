@@ -1,0 +1,143 @@
+﻿@font-face{font-family:'KoPubDotumMedium'; src:url('/fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('/fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('/fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('/fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('/fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('/fonts/VeraBd.eot')}
+
+/*»ó´Ü ¹Ù*/
+ a:link{color: black; text-decoration: none;}
+ a:active{color: black; text-decoration: none;}
+ a:visited{color: black; text-decoration: none;}
+ a:hover{color: black; text-decoration: none;}
+ a:focus{color: black; text-decoration: none;}
+
+
+#content{ 
+	width: 69.5%;
+	margin-top: 191px;
+	margin-bottom: 140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (min-width: 721px) and (max-width: 1100px) {
+	#content {
+		width: 980px; 
+		margin-top: 110px;
+		margin-bottom: 30px;
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+}
+@media only screen and (max-width: 720px) {
+			#content {
+				width: 680px; 
+				margin-top: 10px;
+				margin-bottom: 30px;
+				margin-left: 20px;
+				margin-right: 20px;
+}
+		}
+
+.title{
+		font-family:'MyriadProBold','LSANS' ;
+		font-size: 22px;}
+@media only screen and (max-width: 720px) {
+.title{display: none;}
+}
+#addressBox{
+	width: 100%;
+	height: 110px;
+}
+#addressBox .txtBoxKo{
+	height: 110px;
+	float: left;
+	font-family:'KoPubDotumMedium','LSANS' ;
+	font-size: 14px;
+	line-height:22px;
+	margin-bottom: 20px; 
+	margin-right: 48px;
+}
+#addressBox .txtBoxEn{
+	float: left;
+	font-family:'MyriadProRegular','LSANS' ;
+	font-size: 14px;
+	line-height:22px; }
+.pdfBox{
+	height: 110px;
+	padding-top: 15.8px;
+	float: right;
+	width: 100px;
+	font-family:'MyriadProBold','LSANS' ;
+	font-size: 16px;
+}
+.pdfBox p{ margin: 0; margin-top: 5px;}
+iframe{width: 100%;height: 500px;}
+@media only screen and (max-width: 720px) {
+#addressBox .txtBoxKo{
+	width: 100%;
+	font-size: 18px;
+	line-height:26px;
+}
+#addressBox .txtBoxEn{
+	width: 100%;
+	font-size: 18px;
+	line-height:26px; 
+	margin-top: 20px;
+}
+.pdfBox{
+	margin-right: 60px;
+}
+}
+@media only screen and (max-width: 720px) {
+			#text { float: left;
+				padding-top: 0% ;
+				width : 100%;}
+			
+			iframe{width: 680px;height: 500px;}
+		}
+
+
+.messageUs{
+	width: 100%;
+	height: 130px;
+	margin-top: 75px;
+}
+
+.messageUs .txtBoxKo{
+		width: 100%;
+	font-family:'KoPubDotumMedium','LSANS' ;
+	font-size: 14px;
+	line-height:22px;
+		margin-top: 20px;
+		margin-bottom:10px;
+		}
+.messageUs .txtBoxEn{
+
+		width: 100%;
+	font-family:'MyriadProRegular','LSANS' ;
+	font-size: 14px;
+	line-height:22px; 
+		margin-top: 00px;
+		}
+@media only screen and (max-width: 720px) {
+	.messageUs{
+		width: 680px;
+		height: 200px;}
+	.messageUs .title{display: block;font-size: 28px;}
+	.messageUs .txtBoxKo,.messageUs .txtBoxEn{
+	font-size: 18px;
+	line-height:26px;
+	}
+}
+
+#emailForm{
+	margin-top: 30px;
+	vertical-align: top;
+}
+#emailForm p{
+	margin-top: 00px;
+}
+.subject:focus,input:focus{
+	outline: none;}
+

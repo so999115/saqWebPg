@@ -1,0 +1,363 @@
+
+
+@font-face{font-family:'KoPubDotumMedium'; src:url('/fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('/fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('/fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('/fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('/fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('/fonts/VeraBd.eot')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.otf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.otf')}
+
+
+/*»ó´Ü ¹Ù*/
+#fbar a:hover{color: #53565a; text-decoration: none;}
+ #fbar a:focus{color: #53565a; text-decoration: none;}
+
+#fbar{
+ z-index: 1;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;/*이건 없에도 문제고..*/
+	padding-top: 20px;
+	height: 160px;
+	position: fixed;
+	top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	 }
+
+
+#menu {
+	font-family:'MyriadProRegular' ;
+		font-size: 18px;
+	 	color: #4c4c4c;
+	height: 100%;
+	width: 69.7%;
+	margin-left:auto;	
+	margin-right: auto;
+	text-align: left;
+	}
+.fbarMenu{
+	vertical-align: text-bottom;
+	width: 100px;
+	float: left;
+	margin-top: 40px;
+	}
+	.mainLogo{
+	vertical-align: text-bottom;
+	text-align: right;
+	width: 130px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 0.3%}
+
+	
+
+#mobile{ display: none; padding-top: 17.5px;padding-left: 17px;padding-right: 16.5px; }
+#moblie tr{width: 680px;}
+#mlogo {
+ 	width: 350px;
+	}	
+ #mlogo img{ 
+ 	width: 78.5px;
+ 	height: 78.5px;
+	}	
+#mmenu{
+ 	padding-left: 210px;
+}
+@media only screen and (max-width: 720px) {
+			#body,#fbar{ width: 720px; }
+			#fbar{margin-bottom: 30px;}
+			#tr{width: 720px;}
+			#menu { display: none; }
+			#fbar{position: relative;}
+		}
+
+@media only screen and (max-width: 720px) {
+			#mobile { display:inline-block; 
+ 				z-index: 4;}
+		}
+ #bbar{  
+	color: #b3b3b3;
+	width: 70.3%;
+	margin-top: 210px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 130px;}
+#bbar table,#bbar table tr,#bbar table td{margin: 0;padding: 0;}
+.bottomlogoBox{
+	width: 75px;
+}
+.bottomlogo{
+	margin-right: -10px;
+	width: 55px;
+	height: 55px;
+}
+.addressBox{
+	 width: 450px;
+}
+.bottomAddress{
+	 float: left;
+}
+@media only screen and (max-width: 720px) {
+#bbar{
+	width:680px;
+	margin-bottom: 60px;}
+	.addressBox{
+	 width: 400px;
+	 visibility: hidden;
+	 color: #fff;
+	}
+
+}
+.addressKo{
+	font-family:'KoPubDotumMedium','LSANS';
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 4px;
+}
+
+.addressEn{
+	font-family:'MyriadProRegular','LSANS';
+	font-size: 15px;
+	color: #000;
+	line-height: 20px;
+}
+
+.bottomContact img{
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-left: 9px;}
+.bottomContact{
+	float: right;	
+}
+.bottomContact .imgBox{
+	width: 100%;
+	float: right;
+	margin-bottom: 10px;	
+	letter-spacing: 25px;
+}
+
+.contactTxt{
+	font-family:'MyriadProRegular','LSANS';
+	font-size: 15px;
+	color: #000;
+		text-align: right;
+}
+a > img{width : 50%; height: 50%;}		
+
+
+/*»ó´Ü ¹Ù*/
+ a:link{color: black; text-decoration: none;}
+ a:active{color: black; text-decoration: none;}
+ a:visited{color: black; text-decoration: none;}
+ a:hover{color: black; text-decoration: none;}
+ a:focus{color: black; text-decoration: none;}
+
+body{overflow-x:hidden;}
+
+#content{z-index: 2; 
+font-family:'KoPubDotumMedium','LSANS' ;
+float: left;
+width: 100%;
+overflow-x:hidden;
+}
+
+#gridView{
+	width: 70%;
+	font-family:'MyriadProRegular','LSANS';
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	overflow-x:hidden;
+	}
+.label{
+	font-family:'MyriadProBold','LSANS';
+	width: 100%;
+	margin-left: 0.3%;
+	font-size: 24px;
+	color: #000;
+}
+
+@media only screen and (max-width: 720px) {
+	#content {
+		width: 720px; 
+		margin-left: 00px;
+		margin-right: 00px;
+		margin-top: 50px;
+	}
+	#gridView{
+		width: 680px; 
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 100px;
+	}
+	.label{
+		font-family:'MyriadProBold','LSANS';
+		width: 100%;
+		margin-left: 0.3%;
+		font-size: 28px;
+		color: #000;
+		margin-bottom: 30px;
+		}
+}
+.grid { 
+    list-style: none;
+    position: relative;
+    width: 100%; 
+    margin-top: 0;
+    margin-left: -40px;
+	overflow-x:hidden;
+}
+
+.grid li {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 33.3333333333%; 
+    width: -webkit-calc(100% / 3);
+    width: calc(98% / 3);
+        margin: 0.3%;
+}
+
+.grid li a, .grid li a img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.grid li a img {
+    max-width: 100%;
+}
+
+.grid li a div {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 85%;
+	padding-bottom: 15%;
+	background: rgba(0,0,0,0.6);
+	opacity: 0;
+	-webkit-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+
+.grid li a:hover div {
+	opacity: 1;
+	-webkit-transition: all 0.25s ease-in;
+	-o-transition: all 0.25s ease-in;
+	transition: all 0.25s ease-in;
+}
+
+.grid li a div p {
+    text-align: center;
+	font-size: 22px;
+	color: #fff;
+	font-weight:400;
+}
+#seeMoreBtn{
+    background: transparent;
+    border: none;
+    font-family:'MyriadProBold','LSANS';
+    font-size: 18px;
+}
+#seeMoreBtn:hover{
+	color: #838383;
+	}
+
+input:focus{
+	color: #838383;
+   outline: none;
+}
+.center {
+  position: relative;
+  top: 50%;
+  line-height: 0;
+}
+
+
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .grid li {
+        width: 50%; /* Fallback */
+        width: -webkit-calc(100% / 2);
+        width: calc(98% / 2);
+    }
+
+	.grid li a div p {
+		font-size: 15px;
+		font-weight: 200px;
+	}
+
+}
+ 
+@media only screen and (max-width:720px) and (orientation:portrait) {
+    .grid li {
+        width: 100%;
+	}
+		
+	.grid li a div {
+    position: absolute;
+	width: 100%;
+	height: 8%;
+	padding-bottom: 8%;
+	right: 0;
+	background: rgba(0,0,0,0.8);
+	font-size: 26px;
+	opacity: 1;
+	clear: both;
+	margin-top: 46.25%; /* 원래는 47.25%*/
+	
+}
+
+.grid li a div p {
+	font-size: 18px;
+	font-weight: 200px;
+	
+}
+
+@media only screen and (max-width:1000px) and (orientation:landscape) {
+    .grid li {
+        width: 50%;
+	}
+		
+	.grid li a div {
+    position: absolute;
+	width: 100%;
+	height: 20%;
+	bottom: 0;
+	right: 0;
+	background: rgba(0,0,0,0.8);
+	opacity: 1;
+	clear: both;
+	margin-top: 47.25%;
+}
+
+.grid li a div p {
+	font-size: 12px;
+	font-weight: 200;
+}
+}

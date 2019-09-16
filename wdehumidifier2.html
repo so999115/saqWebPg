@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no"/>
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=720">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+  <title>SAQ Design</title>
+<link rel="shortcut icon" type="image/x-icon" href="pic/favicon.jpg" />
+
+<link href="css/bar.css" rel="stylesheet" type="text/css">
+<link href="css/work.css" rel="stylesheet" type="text/css">
+<link href="css/mmenu.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+<link href="css/emailform.css" rel="stylesheet" type="text/css">
+
+<style type = "text/css"> 
+
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.eot')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.otf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.otf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.ttf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.ttf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.woff')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.woff')}
+
+
+ html,body{ margin: 0%; width: 100%; height: 100%;padding: 0%;}
+ ul{list-style-type : none;}
+ </style>
+
+
+ <script>
+    // html dom 이 다 로딩된 후 실행된다.
+    $(document).ready(function(){
+        // menu 클래스 바로 하위에 있는 a 태그를 클릭했을때
+        $(".menu>a").click(function(){
+            var submenu = $(this).next("ul");
+ 
+            // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+            if( submenu.is(":visible") ){
+                submenu.slideUp();
+            }else{
+                submenu.slideDown();
+            }
+        });
+
+    $(".scroll").click(function(event){ event.preventDefault(); $('html,body').animate({scrollTop:$('html,body').offset().top}, 500); });
+    });
+</script>
+
+
+
+
+ <body>
+<div id ="fbar"   >
+
+  <div id ="menu">
+
+  <div class='fbarMenu'    >
+   <a  href="index.html">home</a></div>
+
+  <div class='fbarMenu'    >
+   <a  href="works.html">works</a></div>
+
+  
+  <div class='fbarMenu'   >
+   <a  href="about.html">about</a></div>
+
+  
+  <div class='fbarMenu'     >
+   <a  href="contact.html">contact</a></div>
+
+  
+  <div class='mainLogo'>
+   <a  href="index.html" ><img src="pic/newimage/toplogo.png"></a></div>
+
+  </div>
+
+
+  <div id = mobile > 
+  <table >
+  <tr>
+    <td id = "mlogo" >
+    <a href="index.html" ><img src="pic/newimage/toplogo.png"></a> 
+    </td>
+
+    <td id = "mmenu">
+     <ul class="mmenu_ul">
+        <li class="menu">
+           <a>MENU</a>
+            <ul class="hide" >
+                <li><a href="index.html">HOME </a></li>
+                <li><a href="works.html">WORK </a></li>
+                <li><a href="about.html">ABOUT </a></li>
+                <li><a href="contact.html">CONTACT </a></li>
+          </ul>
+        </li>
+     </ul>
+    </td>
+  </tr>
+  </table >
+  </div>
+
+  </div>
+  
+  </div>
+
+  <section id ="content">
+    <div class="companyNm">WINIX</div>
+   <div class="goodsNm">Dehumidifier</div>
+	 <section id= "text">
+	<img src = "pic/work/dehumidfilter2/ev.jpg">
+	<p class = "txtKo">제습공학을 표어로 하는 위닉스사의 플래그쉽 3D 제습기 디자인.
+	제습기는 특성상 집안의 여러 공간을 이동하는데 필요한 바퀴, 
+	무거운 대용량 수조를 비우기 위한 손잡이, 
+	공기배출구, 흡입구 등 디자인 시 면밀히 연구 하여야 하는 요소가 많다.
+	본 제품에서는 고가의 라인임을 고려해 모두 히든 방식으로 디자인 하였는데,
+	많은 워킹파트를 깔끔하게 보이기 위해 앞, 뒤 샌드위치 형상을 만들고 복잡한 요소들을 살짝 좁은 중앙 측면에 집중 시켰다.</p>
+	<p class = "txtEn">
+	A flagship 3D dehumidifier of WINIX that has a slogan dehumidification engineering
+	There are a lot of factors needed to be studied thoroughly because of the characteristics of a dehumidifier like wheels for moving it to many places, a handle for emptying a heavy water tank, an air vent and an inlet.
+	In this product, we designed it all hidden type to consider a high-priced line.
+	So we made the working part as a sandwich shape for the front and the back side to be simple and put complicated elements on the central side.
+	</p>
+	</section>
+
+    
+	<img src = "pic/work/dehumidfilter2/1.jpg">
+	
+	<img src = "pic/work/dehumidfilter2/22.jpg">
+	<img src = "pic/work/dehumidfilter2/3.jpg">
+	<img src = "pic/work/dehumidfilter2/4.jpg">
+	<img src = "pic/work/dehumidfilter2/5.jpg">
+	
+ 
+
+ <section id= "text">
+	    
+	<p class = "txtKo">깨끗하고 넓은 전면은 금속성 헤어라인을 적용하여 인테리어 효과를 높이고 그 속에서 히든식 LED를 투과시켜 필요한 정보를 소비자에게 전달 하게 하였다.
+	세 방향 입체적 공기 배출과 흡입구의 2중 패턴 필터, 미 사용시의 케이블 정리 공간까지 세밀한 디자인으로 완성하였다.</p>
+	<p class = "txtEn">
+	We applied a simple and wide metal hairline on the front side to enhance an interior effect
+	and through the hidden LED from it, give the information to user.
+	We finished this design with a three directions dimensional air vent and double pattern filter of the inlet and a cable storage space.
+			</p>           
+            
+	</section>
+	
+	<img src = "pic/work/dehumidfilter2/6.png">
+	
+	<center>
+	<video   controls width = "100%" style = "margin-top: 50px;">
+	<source src = "pic/work/dehumidfilter2/7.mp4">
+	</video></center>
+
+ 
+	
+</section>
+
+<!-- contain content box -->
+<div id = bbar >
+<table   width = "100%" height = "100%" >
+  <tr>
+    <td class="bottomlogoBox">
+    <a href="#" class="scroll"><img class="bottomlogo" src="pic/newimage/bottomlogo.png"/></a>
+    </td>
+    <td class="addressBox">
+      <div class="bottomAddress">
+        <div class="addressKo">(주)삭디자인 컨설팅_서울시 서초구 남부순환로337가길, 43-8(2F)</div>
+        <div class="addressEn">
+          SAQ Design Consulting Inc. 43-8, Nambusunhwan-ro 337ga-gill<br>
+        Seocho-gu Seoul Korea. 06710
+        </div>
+      </div>  
+    </td>
+    <td>
+      <div class="bottomContact">
+        <div class='imgBox'>
+        <a href="https://www.facebook.com/pg/SAQdesign/posts/"><img src="pic/newimage/facebook.png"/></a>
+        <a href="https://www.instagram.com/saqdesign_co/"><img src="pic/newimage/insta.png"/></a>
+            <a href="https://blog.naver.com/PostList.nhn?blogId=saqdesign"><img src="pic/newimage/blog.png"/></a>
+        </div> 
+        <div class="contactTxt">
+          T. +82 2 521 3581<br>
+          F. +82 2 521 3582<br>
+          M. webmaster@saqdesign.com
+        </div>
+      </div>
+    </td>
+  </tr>
+  </table >
+    </div><!--bar end -->
+   <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+ </body>
+</html>

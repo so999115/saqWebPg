@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no"/>
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=720">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+  <title>SAQ Design</title>
+<link rel="shortcut icon" type="image/x-icon" href="pic/favicon.jpg" />
+
+<link href="css/bar.css" rel="stylesheet" type="text/css">
+<link href="css/work.css" rel="stylesheet" type="text/css">
+<link href="css/mmenu.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+<link href="css/emailform.css" rel="stylesheet" type="text/css">
+
+<style type = "text/css"> 
+
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.eot')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.otf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.otf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.ttf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.ttf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.woff')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.woff')}
+
+
+ html,body{ margin: 0%; width: 100%; height: 100%;padding: 0%;}
+ ul{list-style-type : none;}
+ </style>
+
+
+ <script>
+    // html dom 이 다 로딩된 후 실행된다.
+    $(document).ready(function(){
+        // menu 클래스 바로 하위에 있는 a 태그를 클릭했을때
+        $(".menu>a").click(function(){
+            var submenu = $(this).next("ul");
+ 
+            // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+            if( submenu.is(":visible") ){
+                submenu.slideUp();
+            }else{
+                submenu.slideDown();
+            }
+        });
+
+    $(".scroll").click(function(event){ event.preventDefault(); $('html,body').animate({scrollTop:$('html,body').offset().top}, 500); });
+    });
+</script>
+
+
+
+
+ <body>
+<div id ="fbar"   >
+
+  <div id ="menu">
+
+  <div class='fbarMenu'    >
+   <a  href="index.html">home</a></div>
+
+  <div class='fbarMenu'    >
+   <a  href="works.html">works</a></div>
+
+  
+  <div class='fbarMenu'   >
+   <a  href="about.html">about</a></div>
+
+  
+  <div class='fbarMenu'     >
+   <a  href="contact.html">contact</a></div>
+
+  
+  <div class='mainLogo'>
+   <a  href="index.html" ><img src="pic/newimage/toplogo.png"></a></div>
+
+  </div>
+
+
+  <div id = mobile > 
+  <table >
+  <tr>
+    <td id = "mlogo" >
+    <a href="index.html" ><img src="pic/newimage/toplogo.png"></a> 
+    </td>
+
+    <td id = "mmenu">
+     <ul class="mmenu_ul">
+        <li class="menu">
+           <a>MENU</a>
+            <ul class="hide" >
+                <li><a href="index.html">HOME </a></li>
+                <li><a href="works.html">WORK </a></li>
+                <li><a href="about.html">ABOUT </a></li>
+                <li><a href="contact.html">CONTACT </a></li>
+          </ul>
+        </li>
+     </ul>
+    </td>
+  </tr>
+  </table >
+  </div>
+
+  </div>
+  
+  </div>
+
+
+  <section id ="content" >
+
+	   <div class="companyNm">PULMUONE ECMD</div>
+	   <div class="goodsNm">Food Tray</div>
+   
+ <section id= "text">
+
+			<p class = "txtKo">식판은 산업화 시대에 단체식사 효율을 높이기 위해 고안되고 주로 배식(급식)소 위주로 사용되어왔다.
+시간의 지남에 따라 삶과 식사의 지향점은 바뀌는데 식판은 30년 전과 거의 동일한 모습이다.
+과거의 짠 반찬, 많은 양의 밥, 목 넘김을 도와주는 국 등 빠른 속도와 과식이 유도되는 식판이 대부분이어서 앉아서 일하는 현대인의 생활에는 맞지 않는 과거의 산물이다.
+뷔페 식으로 변화된 배식환경을 고려하고 로하스 식단에 맞는 ‘밥은 반으로 줄이고 야채는 많이 그리고 적절한 단백질 섭취’의 방향으로 컨셉을 잡아 디자인하였다.
+식기는 우리에게 너무나 익숙한 물건으로 그 외형이 조그만 바뀌어도 어색함과 불편이 따른다.
+많은 자료와 샘플을 검토하고 다양한 요리와 후처리 상황, 위생 등 다각도의 연구를 통해 탄생한 1세대 로하스 식판.</p>
+	 <p class = "txtEn">
+Trays have been designed to enhance an efficiency of group meal and mainly used at cafeterias.  
+As the time pass, the directing of life and meal have been changed, but trays look as same as 30 years ago.
+The existing trays which have a large size of rice and soup bowls and many parts for the salty side dishes make people easily overeat. So it doesn’t go well with modern people who do work mostly sitting.
+As the cafeteria style which has been changed to buffet style and set up the concept toward ‘Reduce the rice to half, eat lots of vegetables and take protein properly’ for LOHAS menu
+Dishes are so familiar stuff to us, so It is awkward and uncomfortable if its shape was changed just a little.
+The first generation tray from LOHAS according to examining of lots of data and samples and studies about cooking, the situation after the cooking and other various angles
+
+
+			</p>           
+            
+	</section>
+
+	<img src = "pic/work/foodtray/1.jpg">
+	<img src = "pic/work/foodtray/2.jpg">
+	<img src = "pic/work/foodtray/3.jpg">
+	<img src = "pic/work/foodtray/4.jpg">
+	<img src = "pic/work/foodtray/5.jpg">
+	<img src = "pic/work/foodtray/6.jpg">
+	<img src = "pic/work/foodtray/7.jpg">
+	<img src = "pic/work/foodtray/8.jpg">
+	<img src = "pic/work/foodtray/9.jpg">
+	<img src = "pic/work/foodtray/10.jpg">
+	<img src = "pic/work/foodtray/11.jpg">
+
+	
+</section>
+
+<!-- contain content box -->
+<div id = bbar >
+<table   width = "100%" height = "100%" >
+  <tr>
+    <td class="bottomlogoBox">
+    <a href="#" class="scroll"><img class="bottomlogo" src="pic/newimage/bottomlogo.png"/></a>
+    </td>
+    <td class="addressBox">
+      <div class="bottomAddress">
+        <div class="addressKo">(주)삭디자인 컨설팅_서울시 서초구 남부순환로337가길, 43-8(2F)</div>
+        <div class="addressEn">
+          SAQ Design Consulting Inc. 43-8, Nambusunhwan-ro 337ga-gill<br>
+        Seocho-gu Seoul Korea. 06710
+        </div>
+      </div>  
+    </td>
+    <td>
+      <div class="bottomContact">
+        <div class='imgBox'>
+        <a href="https://www.facebook.com/pg/SAQdesign/posts/"><img src="pic/newimage/facebook.png"/></a>
+        <a href="https://www.instagram.com/saqdesign_co/"><img src="pic/newimage/insta.png"/></a>
+            <a href="https://blog.naver.com/PostList.nhn?blogId=saqdesign"><img src="pic/newimage/blog.png"/></a>
+        </div> 
+        <div class="contactTxt">
+          T. +82 2 521 3581<br>
+          F. +82 2 521 3582<br>
+          M. webmaster@saqdesign.com
+        </div>
+      </div>
+    </td>
+  </tr>
+  </table >
+    </div><!--bar end -->
+   <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+ </body>
+</html>

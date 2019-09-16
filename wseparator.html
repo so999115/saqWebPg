@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no"/>
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=720">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+  <title>SAQ Design</title>
+<link rel="shortcut icon" type="image/x-icon" href="pic/favicon.jpg" />
+
+<link href="css/bar.css" rel="stylesheet" type="text/css">
+<link href="css/work.css" rel="stylesheet" type="text/css">
+<link href="css/mmenu.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+<link href="css/emailform.css" rel="stylesheet" type="text/css">
+
+<style type = "text/css"> 
+
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.eot')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.otf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.otf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.ttf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.ttf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.woff')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.woff')}
+
+
+ html,body{ margin: 0%; width: 100%; height: 100%;padding: 0%;}
+ ul{list-style-type : none;}
+ </style>
+
+
+ <script>
+    // html dom 이 다 로딩된 후 실행된다.
+    $(document).ready(function(){
+        // menu 클래스 바로 하위에 있는 a 태그를 클릭했을때
+        $(".menu>a").click(function(){
+            var submenu = $(this).next("ul");
+ 
+            // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+            if( submenu.is(":visible") ){
+                submenu.slideUp();
+            }else{
+                submenu.slideDown();
+            }
+        });
+
+    $(".scroll").click(function(event){ event.preventDefault(); $('html,body').animate({scrollTop:$('html,body').offset().top}, 500); });
+    });
+</script>
+
+
+
+
+ <body>
+<div id ="fbar"   >
+
+  <div id ="menu">
+
+  <div class='fbarMenu'    >
+   <a  href="index.html">home</a></div>
+
+  <div class='fbarMenu'    >
+   <a  href="works.html">works</a></div>
+
+  
+  <div class='fbarMenu'   >
+   <a  href="about.html">about</a></div>
+
+  
+  <div class='fbarMenu'     >
+   <a  href="contact.html">contact</a></div>
+
+  
+  <div class='mainLogo'>
+   <a  href="index.html" ><img src="pic/newimage/toplogo.png"></a></div>
+
+  </div>
+
+
+  <div id = mobile > 
+  <table >
+  <tr>
+    <td id = "mlogo" >
+    <a href="index.html" ><img src="pic/newimage/toplogo.png"></a> 
+    </td>
+
+    <td id = "mmenu">
+     <ul class="mmenu_ul">
+        <li class="menu">
+           <a>MENU</a>
+            <ul class="hide" >
+                <li><a href="index.html">HOME </a></li>
+                <li><a href="works.html">WORK </a></li>
+                <li><a href="about.html">ABOUT </a></li>
+                <li><a href="contact.html">CONTACT </a></li>
+          </ul>
+        </li>
+     </ul>
+    </td>
+  </tr>
+  </table >
+  </div>
+
+  </div>
+  
+  </div>
+
+
+  <section id ="content">
+
+	   <div class="companyNm">DAEWOONG CGBIO</div>
+	   <div class="goodsNm">Stem Sell Separator</div>
+   
+ <section id= "text">
+
+			<p class = "txtKo">본 디자인은 성형수술 시 피하지방을 추출하여 다시 환자의 얼굴 등에 주입할 줄기세포를 만들기 위한 제품이다.
+기존의 제품들이 큰 부피와 사용의 번거로움으로 숙달된 전문가가 아니면 사용하기 어렵다는 등의 문제점이 많았다. 본 제품은 복잡했던 배선을 모듈화하여 부피를 줄이고 사용단계를 획기적으로 개선한 제품이다. 사용환경이 성형외과이므로 잘 정돈되어 신뢰감을 줄 수 있는 외형이어야 했으며 섬세한 작업이 이루어져야 하므로 가능한 한 미니멀하고 깨끗한 이미지를 주려 하였다. 외형은 오염에 강한 알루미늄 바디로 감쌌으며 내부는 위생적으로 화이트를 적용하여 디자인 하였다. 
+기기작동 시의 배선 간섭 및 작업자의 오류를 최소화하기 위해  각 파트 별 단차를 형성하였으며 중요파트는 별도의 공간을 만들어 주었다. 거치되는 파트의 디테일을 특화하여 설치순서 및 방법을 직관적으로 보여주게 디자인하였고 폐기물은 눈에 잘 보이지 않는 곳에 설치하는 등 전체적으로 심플하지만 많은 부분이 고려된 디자인이다.</p>
+
+
+
+<p class = "txtEn">
+This design is to make stem cells to be injected into patient's face after extracting subcutaneous fat during plastic surgery.
+The existing products had many problems such as a large volume of equipment and difficulty to use without a skilled expert.
+This product has been improved dramatically by modularizing the wirings simple and decrease the volume.
+Since the product is for a plastic surgery hospital, we have designed the appearance to be well organized and to give a trust to the people. We intended to make it minimal and clean image as possible as because of a delicate work. 
+The appearance has been wrapped in a dirt-resistant aluminum body and the interior has been designed with a white color for a hygiene.
+In order to minimize the wiring interference and operator errors during operation of the device, we have formed the steps for each parts and made a separate space for the important parts.
+It is designed to intuitionally showing the orders and methods of installation by specializing the details of the part to be mounted.
+The part for the waste has been installed in a place that is not visible to the eyes. 
+Overall, it is a simple design but a considerable design.</p>           
+            
+	</section>
+
+	<img src = "pic/work/separator/1.jpg">
+	<img src = "pic/work/separator/2.jpg">
+	<img src = "pic/work/separator/3.jpg">
+	<img src = "pic/work/separator/4.jpg">
+	<img src = "pic/work/separator/5.jpg">
+	<img src = "pic/work/separator/6.jpg">
+	<img src = "pic/work/separator/7.jpg">
+	<img src = "pic/work/separator/8.jpg">
+	<img src = "pic/work/separator/9.jpg">
+
+</section>
+
+<!-- contain content box -->
+<div id = bbar >
+<table   width = "100%" height = "100%" >
+  <tr>
+    <td class="bottomlogoBox">
+    <a href="#" class="scroll"><img class="bottomlogo" src="pic/newimage/bottomlogo.png"/></a>
+    </td>
+    <td class="addressBox">
+      <div class="bottomAddress">
+        <div class="addressKo">(주)삭디자인 컨설팅_서울시 서초구 남부순환로337가길, 43-8(2F)</div>
+        <div class="addressEn">
+          SAQ Design Consulting Inc. 43-8, Nambusunhwan-ro 337ga-gill<br>
+        Seocho-gu Seoul Korea. 06710
+        </div>
+      </div>  
+    </td>
+    <td>
+      <div class="bottomContact">
+        <div class='imgBox'>
+        <a href="https://www.facebook.com/pg/SAQdesign/posts/"><img src="pic/newimage/facebook.png"/></a>
+        <a href="https://www.instagram.com/saqdesign_co/"><img src="pic/newimage/insta.png"/></a>
+            <a href="https://blog.naver.com/PostList.nhn?blogId=saqdesign"><img src="pic/newimage/blog.png"/></a>
+        </div> 
+        <div class="contactTxt">
+          T. +82 2 521 3581<br>
+          F. +82 2 521 3582<br>
+          M. webmaster@saqdesign.com
+        </div>
+      </div>
+    </td>
+  </tr>
+  </table >
+    </div><!--bar end -->
+ </body>
+</html>

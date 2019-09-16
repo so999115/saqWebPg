@@ -1,0 +1,78 @@
+
+#content{
+	width: 69.5%;
+	margin-top: 191px;
+	margin-bottom: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	word-spacing: 80%;
+			
+	}
+#content img{
+  width: 100%;
+	margin-bottom:C 5px;
+}
+.companyNm{
+		font-size: 22px;
+		font-family:'MyriadProBold','LSANS' ;
+		text-align: left;
+		margin: 0px;
+		/*letter-spacing:25px; 	*/
+}
+.goodsNm{
+		font-size: 30px;
+		font-family:'MyriadProBold','LSANS' ;
+		text-align: left;
+		margin-bottom: 10px;
+		/*letter-spacing:25px; */
+}
+.txtKo{ font-size: 16px;
+		font-family:'KoPubDotumMedium','LSANS' ;
+		text-align: justify;
+		line-height:28px; 	
+		margin-bottom:10px;
+		margin-top: 15px;
+		}
+	.txtKo b{ font-size: 32px;
+	}
+.txtEn{ font-size: 16px;
+		font-family:'MyriadProRegular','LSANS' ;
+		/*letter-spacing:25px; */
+		line-height:28px; 	
+		margin-bottom:20px;
+		}
+
+
+@media only screen and (min-width: 721px) and (max-width: 1100px) {
+	#content {
+		width: 980px; 
+		margin-top: 110px;
+		margin-bottom: 30px;
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+}
+@media only screen and (max-width: 720px) {
+		#content { 
+		width: 680px;
+		margin-top: 110px;
+		margin-bottom: 30px;
+		margin-left: 20px;
+		margin-right: 20px;
+			}
+		}
+
+
+@media only screen and (max-width: 720px) {
+		
+		}	
+#full{float: left;
+	padding: 0px 0px 0px 0px;
+			margin: 0px 0px 40px 0px;}
+
+.partners{
+	margin-top: 100px;
+}
+.partners img{
+}
+

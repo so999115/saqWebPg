@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=720">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+  <title>SAQ Design</title>
+<link rel="shortcut icon" type="image/x-icon" href="../pic/favicon.jpg" />
+
+<link href="../css/bar.css" rel="stylesheet" type="text/css">
+<link href="../css/work.css" rel="stylesheet" type="text/css">
+<link href="../css/mmenu.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+
+<style type = "text/css"> 
+
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('../fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('../fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('../fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('../fonts/VeraBd.eot')}
+@font-face{font-family:'MyriadProRegular'; src:url('../fonts/MyriadPro-Regular.otf')}
+@font-face{font-family:'MyriadProBold'; src:url('../fonts/MyriadPro-Bold.otf')}
+@font-face{font-family:'MyriadProRegular'; src:url('../fonts/MyriadPro-Regular.ttf')}
+@font-face{font-family:'MyriadProBold'; src:url('../fonts/MyriadPro-Bold.ttf')}
+@font-face{font-family:'MyriadProRegular'; src:url('../fonts/MyriadPro-Regular.woff')}
+@font-face{font-family:'MyriadProBold'; src:url('../fonts/MyriadPro-Bold.woff')}
+
+
+ html,body{ margin: 0%; width: 100%; height: 100%;padding: 0%;}
+ ul{list-style-type : none;}
+ </style>
+
+
+ <script>
+    // html dom 이 다 로딩된 후 실행된다.
+    $(document).ready(function(){
+        // menu 클래스 바로 하위에 있는 a 태그를 클릭했을때
+        $(".menu>a").click(function(){
+            var submenu = $(this).next("ul");
+ 
+            // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+            if( submenu.is(":visible") ){
+                submenu.slideUp();
+            }else{
+                submenu.slideDown();
+            }
+        });
+
+    $(".scroll").click(function(event){ event.preventDefault(); $('html,body').animate({scrollTop:$('html,body').offset().top}, 500); });
+    });
+</script>
+
+
+
+
+ <body>
+<div id ="fbar"   >
+
+  <div id ="menu">
+
+  <div class='fbarMenu'    >
+   <a  href="../index.html">home</a></div>
+
+  <div class='fbarMenu'    >
+   <a  href="../works.html">works</a></div>
+
+  
+  <div class='fbarMenu'   >
+   <a  href="../about.html">about</a></div>
+
+  
+  <div class='fbarMenu'     >
+   <a  href="../contact.html">contact</a></div>
+
+  
+  <div class='mainLogo'>
+   <a  href="../index.html" ><img src="../pic/newimage/toplogo.png"></a></div>
+
+  </div>
+
+
+  <div id = mobile > 
+  <table >
+  <tr>
+    <td id = "mlogo" >
+    <a href="../index.html" ><img src="../pic/newimage/toplogo.png"></a> 
+    </td>
+
+    <td id = "mmenu">
+     <ul class="mmenu_ul">
+        <li class="menu">
+           <a>MENU</a>
+            <ul class="hide" >
+                <li><a href="../index.html">HOME </a></li>
+                <li><a href="../works.html">WORK </a></li>
+                <li><a href="../about.html">ABOUT </a></li>
+                <li><a href="../contact.html">CONTACT </a></li>
+          </ul>
+        </li>
+     </ul>
+    </td>
+  </tr>
+  </table >
+  </div>
+
+  </div>
+  
+  </div>
+
+
+  <section id ="content">
+
+	   <div class="companyNm">LIHAN</div>
+	   <div class="goodsNm">Induction Clay Pot</div>
+
+	    
+		<img src = "img/lihan_dduk_ev.jpg">
+		
+	   	<section id= "text">
+				<p class = "txtKo">
+					한국도자기리빙의 플래그쉽제품 인덕션용 클레이쿡.
+          기존의 뚝배기의  흙에서 빚은 수공의 아름다움을 잃지 않으면서 인덕션용 내열찜기로서 새로운 현대감각을 불어넣은 디자인이다. 내열제품으로서 열변형이 거의 없는 탄자니아의 고운흙을 메인으로 제품 하단에 전류가 통하는 전사지를 적용하여 인덕션에서도 요리가 가능하게한 첨단 제품이다.
+          ‘식탁위의 오브제’라는 컨셉으로 전통의 미를 현대화한다라는 목표로 뚝배기 전통의 아름다움의 표현을 여러 갈래로 시도하였는데, 최종의 결정은 한국 기와집의 처마를 모티브로 한 디자인이 선택 되었다.
+          평범하고 일상적인 식사 시간이 분위기 있는 뚝배기 하나로 특별해 질 수 있지 않을까?
+          </p>
+				<p class = "txtEn" style = 'margin-bottom:20px;'>
+					Clay Cook for Induction, which introduced by LIHAN as a flagship product.
+          This clay pot designed to add a new sense of modernity as a heat-resistant steam for induction without losing the beauty of handcrafts that were created in the soil of the existing ttukbaegi.
+          Tanzania's fine clay, which has little thermal deformation as a heat-resisting product, is a state-of-the-art product that can be cooked even in induction by applying electric current-carrying paper to the bottom of the product.
+          With the goal of modernizing the beauty of traditional ttukbaegi with the concept of "object on the table," the final decision was made by a design featuring the eaves of a Korean tile house.
+          Can ordinary, everyday mealtimes become special with one atmospheric pot?
+	        	</p>
+				
+		</section>	
+
+  <img src = "img/lihan_dduk_detail1.jpg">
+  <img src = "img/lihan_dduk_detail2.jpg">
+
+	
+</section>
+
+<!-- contain content box -->
+<div id = bbar >
+<table   width = "100%" height = "100%" >
+  <tr>
+    <td class="bottomlogoBox">
+    <a href="#" class="scroll"><img class="bottomlogo" src="../pic/newimage/bottomlogo.png"/></a>
+    </td>
+    <td class="addressBox">
+      <div class="bottomAddress">
+        <div class="addressKo">(주)삭디자인 컨설팅_서울시 서초구 남부순환로337가길, 43-8(2F)</div>
+        <div class="addressEn">
+          SAQ Design Consulting Inc. 43-8, Nambusunhwan-ro 337ga-gill<br>
+        Seocho-gu Seoul Korea. 06710
+        </div>
+      </div>  
+    </td>
+    <td>
+      <div class="bottomContact">
+        <div class='imgBox'>
+        <a href="https://www.facebook.com/pg/SAQdesign/posts/"><img src="../pic/newimage/facebook.png"/></a>
+        <a href="https://www.instagram.com/saqdesign_co/"><img src="../pic/newimage/insta.png"/></a>
+            <a href="https://blog.naver.com/PostList.nhn?blogId=saqdesign"><img src="../pic/newimage/blog.png"/></a>
+        </div> 
+        <div class="contactTxt">
+          T. +82 2 521 3581<br>
+          F. +82 2 521 3582<br>
+          M. webmaster@saqdesign.com
+        </div>
+      </div>
+    </td>
+  </tr>
+  </table >
+    </div><!--bar end -->
+ </body>
+</html>

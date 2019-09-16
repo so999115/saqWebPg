@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <title>SAQ Design</title>
+<link rel="shortcut icon" type="image/x-icon" href="pic/favicon.jpg" />
+
+   
+ <link href="css/contact.css" rel="stylesheet" type="text/css">
+ <link href="css/bar3.css" rel="stylesheet" type="text/css">
+<link href="css/mmenu.css" rel="stylesheet" type="text/css">
+
+<style type = "text/css">	
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.eot')}
+
+body{width: 100%; height: 100%;}
+   
+ul{list-style-type : none;}
+
+
+</style>
+
+
+
+ </head>
+
+
+ 
+
+ <script>
+    // html dom 이 다 로딩된 후 실행된다.
+    $(document).ready(function(){
+        // menu 클래스 바로 하위에 있는 a 태그를 클릭했을때
+        $(".menu>a").click(function(){
+            var submenu = $(this).next("ul");
+ 
+            // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+            if( submenu.is(":visible") ){
+                submenu.slideUp();
+            }else{
+                submenu.slideDown();
+            }
+        });
+    });
+</script>
+
+
+
+ <body >
+
+<div>
+    <ul>
+
+        <li class="menu">
+           <a>MENU</a>
+            <ul class="hide" >
+                <li><a>WORK </a></li>
+                <li><a>PROCESS </a></li>
+                <li><a>ABOUT </a></li>
+                <li><a>CONTACT </a></li>
+			</ul>
+        </li>
+    </ul>
+</div>
+
+
+	
+ </body>
+</html>

@@ -1,0 +1,118 @@
+
+/*»ó´Ü ¹Ù*/
+ a:link{color: black; text-decoration: none;}
+ a:active{color: black; text-decoration: none;}
+ a:visited{color: black; text-decoration: none;}
+ a:hover{color: black; text-decoration: none;}
+ a:focus{color: black; text-decoration: none;}
+
+#content{ 
+	width: 69.5%;
+	margin-top: 191px;
+	margin-bottom: 140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#content img{
+  width: 100%;
+	margin-bottom: 60px;
+}
+.title{
+		font-size: 22px;
+		font-family:'MyriadProBold','LSANS' ;
+		text-align: justify;
+		margin: 0px;
+}
+.txtKoB{ 
+	font-size: 20px;
+	font-family:'KoPubDotumMedium','LSANS' ;
+	text-align: justify;
+	line-height:30px; 	
+	margin-bottom:00px;
+}
+.txtKo{ font-size: 16px;
+		font-family:'KoPubDotumMedium','LSANS' ;
+		text-align: justify;
+		line-height:28px; 	
+		margin-top: 8px;
+		margin-bottom:10px;
+		}
+.txtEn{ font-size: 16px;
+		font-family:'MyriadProRegular','LSANS' ;
+		line-height:28px; 	
+		margin-top: 00px;
+		}
+.txtEnB{ 
+	font-size: 20px;
+	font-family:'MyriadProBold','LSANS' ;
+	text-align: left;
+	line-height:30px; 	
+	margin-bottom:00px;
+}
+
+
+#full{float: left;
+	padding: 0px 0px 0px 0px;
+			margin: 0px 0px 40px 0px;}
+
+.partners{
+	margin-top: 100px;
+}
+.partners img{
+	margin-top: 20px;
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1100px) {
+	#content {
+		width: 980px; 
+		margin-top: 110px;
+		margin-bottom: 30px;
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+}
+@media only screen and (max-width: 720px) {
+	#content {
+		width: 680px; 
+		margin-top: 110px;
+		margin-bottom: 30px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+@media only screen and (max-width: 720px) {
+	.title{
+	font-size: 28px;
+	}	
+	
+	.txtKoB{ 
+	font-size: 18px;
+	font-family:'KoPubDotumMedium','LSANS' ;
+	text-align: left;
+	line-height:26px; 		
+	margin-bottom:-10px;
+	}
+	.txtKo{ 
+	font-size: 18px;
+	font-family:'KoPubDotumMedium' ;
+	text-align: left;
+	line-height:26px; 	
+	margin-top: 30px;
+	margin-bottom:20px;
+	}
+	.txtEnB{ 
+	font-size:18px;
+	font-family:'MyriadProBold','LSANS' ;
+	text-align: left;
+	line-height:26px; 	
+	margin-bottom:15px;
+	margin-top:40px;
+	}
+	.txtEn{ 
+	font-size: 18px;
+	font-family:'MyriadProRegular','LSANS' ;
+	line-height:26px; 	
+	}
+}		

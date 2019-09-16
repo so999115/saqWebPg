@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11" />
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=720">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+  <title>SAQ Design</title>
+<link rel="shortcut icon" type="image/x-icon" href="pic/favicon.jpg" />
+
+<link href="css/bar.css" rel="stylesheet" type="text/css">
+<link href="css/contact.css" rel="stylesheet" type="text/css">
+<link href="css/mmenu.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+<link href="css/emailform.css" rel="stylesheet" type="text/css">
+
+<style type = "text/css">	
+
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.eot')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.otf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.otf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.ttf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.ttf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.woff')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.woff')}
+
+
+ html,body{ margin: 0%; width: 100%; height: 100%;padding: 0%;}
+ ul{list-style-type : none;}
+ </style>
+
+
+ <script>
+    // html dom 이 다 로딩된 후 실행된다.
+    $(document).ready(function(){
+        // menu 클래스 바로 하위에 있는 a 태그를 클릭했을때
+        $(".menu>a").click(function(){
+            var submenu = $(this).next("ul");
+ 
+            // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+            if( submenu.is(":visible") ){
+                submenu.slideUp();
+            }else{
+                submenu.slideDown();
+            }
+        });
+
+    $(".scroll").click(function(event){ event.preventDefault(); $('html,body').animate({scrollTop:$('html,body').offset().top}, 500); });
+    });
+</script>
+
+
+
+
+ <body>
+<div id ="fbar"   >
+
+	<div id ="menu">
+
+	<div class='fbarMenu'    >
+	 <a  href="index.html">home</a></div>
+
+	<div class='fbarMenu'    >
+	 <a  href="works.html">works</a></div>
+
+	
+	<div class='fbarMenu'   >
+	 <a  href="about.html">about</a></div>
+
+	
+	<div class='fbarMenu'     >
+	 <a  href="contact.html">contact</a></div>
+
+	
+	<div class='mainLogo'>
+	 <a  href="index.html" ><img src="pic/newimage/toplogo.png"></a></div>
+
+	</div>
+
+
+	<div id = mobile > 
+	<table >
+  <tr>
+    <td id = "mlogo" >
+  	<a href="index.html" ><img src="pic/newimage/toplogo.png"></a> 
+  	</td>
+
+    <td id = "mmenu">
+     <ul class="mmenu_ul">
+        <li class="menu">
+           <a>MENU</a>
+            <ul class="hide" >
+                <li><a href="index.html">HOME </a></li>
+                <li><a href="works.html">WORK </a></li>
+                <li><a href="about.html">ABOUT </a></li>
+                <li><a href="contact.html">CONTACT </a></li>
+		      </ul>
+        </li>
+     </ul>
+    </td>
+  </tr>
+	</table >
+	</div>
+
+	</div>
+	
+	</div>
+
+<div id ="content" >
+
+ 	<p class="title">SAQ Design Consulting Inc.</p>
+
+<div id="addressBox">
+	<div class="txtBoxKo">
+	(주)삭디자인컨설팅</br>
+	서울시 서초구 남부순환로337가길, 43-8(2F)</br>
+	<a href = "tel: 025213581">전화: 02 521 3581</a><br>
+	팩스: 02 521 3582</br>
+	<a href = "mailto: webmaster@saqdesign.com">이메일: webmaster@saqdesign.com</a>
+	</div>
+
+	<div class="txtBoxEn">
+	SAQ Design Consulting Inc.</br>
+	43-8, Nambusunhwan-ro 337ga-gil Seocho-gu Seoul Korea. 06710<br>
+
+	<a href = "tel: 025213581">Tel: +82 2 521 3581</a><br>
+	Fax: +82 2 521 3582</br>
+	<a href = "mailto: webmaster@saqdesign.com">Mail: webmaster@saqdesign.com</a>
+	</div>
+
+<div class="pdfBox">
+  <center><a href = "SAQ Portfolio_2019.pdf"><img src="pic/newimage/pdfDownload.png"></a></center>
+  <p>SAQ Portfolio</p>
+</div>
+</div>
+
+   <iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3166.001594662829!2d127.02069248703289!3d37.484288740216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca13f48ffa03d%3A0xc70d37fd30f0bbd5!2z7ISc7Jq47Yq567OE7IucIOyEnOy0iOq1rCDrgqjrtoDsiJztmZjroZwzMzfqsIDquLggNDMtOA!5e0!3m2!1sko!2skr!4v1492875051843" width="600" height="450" frameborder="0" style="border:0"  
+   frameborder="0" style="border:0"  allowfullscreen ></iframe>
+
+
+<div class="messageUs">
+	<div class="title">Message Us</div>
+	<div class="txtBoxKo">
+	저희 삭디자인컨설팅을 찾아주셔서 진심으로 감사드립니다.  프로젝트관련 문의 주시면 빠른시간내 답변 드리겠습니다.
+	</div>
+	<div class="txtBoxEn">
+	Thank you very much for visiting our website. If you have any inquiries about the project, I will reply you within a short time.
+	</div>
+</div>
+
+ <form class="gform pure-form pure-form-stacked" method="POST"
+  action="https://script.google.com/macros/s/AKfycby2udL-_ZiVMSnGHr-LFnBQw4b5caaTI-HnyVuK/exec">
+    <!-- change the form action to your script url -->
+
+    <div class="form-elements">
+      <div class="colBox">
+      <fieldset class="rowL">
+        <label for="name">Your Name </label>
+        <input id="name" name="name" />
+        <div class="line"/>
+      </fieldset>
+
+      <fieldset class="rowR">
+        <label for="Company">Company Name </label>
+        <input id="Company" name="Company" />
+        <div class="line"/>
+      </fieldset>
+      </div>
+
+      <div class="colBox">
+      <fieldset class="rowL">
+        <label for="email">Your Email</label>
+        <input id="email" name="email" type="email" value=""/>
+        <div class="line"/>
+        <span class="email-invalid" style="display:none">
+          Must be a valid email address</span>
+      </fieldset>
+
+      <fieldset class="rowR">
+        <label for="Phone">Your Phone Number </label>
+        <input id="Phone" name="Phone"/>
+        <div class="line"/>
+      </fieldset>
+      </div>
+
+      <div class="colBox">
+      <fieldset class="pure-group">
+        <label for="Subject">Subject</label>
+        <input id="Subject" name="Subject"/>
+        <div class="line"/>
+      </fieldset>
+      </div>
+      
+      <div class="colBox">
+      <fieldset class="pure-group">
+        <label for="message">Describe Your Project</label>
+        <textarea id="message" name="message" rows="10" style="border: none;box-shadow: none;"></textarea>
+        <div class="line"/>
+      </fieldset>
+    </div>
+
+      <center>
+      <button >
+        SEND</button>
+	  </center>
+    </div>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+      <h2><em>Thanks</em> for contacting us!
+        We will get back to you soon!</h2>
+    </div>
+
+  </form>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" src="form-submission-handler.js"></script>
+<!-- END -->
+
+</div>
+
+
+<!-- contain content box -->
+<div id = bbar >
+<table   width = "100%" height = "100%" >
+  <tr>
+    <td class="bottomlogoBox">
+    <a href="#" class="scroll"><img class="bottomlogo" src="pic/newimage/bottomlogo.png"/></a>
+    </td>
+    <td class="addressBox">
+      <div class="bottomAddress">
+        <div class="addressKo">(주)삭디자인 컨설팅_서울시 서초구 남부순환로337가길, 43-8(2F)</div>
+        <div class="addressEn">
+          SAQ Design Consulting Inc. 43-8, Nambusunhwan-ro 337ga-gill<br>
+        Seocho-gu Seoul Korea. 06710
+        </div>
+      </div>  
+    </td>
+    <td>
+      <div class="bottomContact">
+        <div class='imgBox'>
+        <a href="https://www.facebook.com/pg/SAQdesign/posts/"><img src="pic/newimage/facebook.png"/></a>
+        <a href="https://www.instagram.com/saqdesign_co/"><img src="pic/newimage/insta.png"/></a>
+            <a href="https://blog.naver.com/PostList.nhn?blogId=saqdesign"><img src="pic/newimage/blog.png"/></a>
+        </div> 
+        <div class="contactTxt">
+          T. +82 2 521 3581<br>
+          F. +82 2 521 3582<br>
+          M. webmaster@saqdesign.com
+        </div>
+      </div>
+    </td>
+  </tr>
+  </table >
+    </div><!--bar end -->
+	 <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+ </body>
+</html>

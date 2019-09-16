@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no"/>
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta name="viewport" content="width=720">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+  <title>SAQ Design</title>
+<link rel="shortcut icon" type="image/x-icon" href="pic/favicon.jpg" />
+
+<link href="css/bar.css" rel="stylesheet" type="text/css">
+<link href="css/work.css" rel="stylesheet" type="text/css">
+<link href="css/mmenu.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+<link href="css/emailform.css" rel="stylesheet" type="text/css">
+
+<style type = "text/css"> 
+
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('fonts/VeraBd.eot')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.otf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.otf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.ttf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.ttf')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.woff')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.woff')}
+
+
+ html,body{ margin: 0%; width: 100%; height: 100%;padding: 0%;}
+ ul{list-style-type : none;}
+ </style>
+
+
+ <script>
+    // html dom 이 다 로딩된 후 실행된다.
+    $(document).ready(function(){
+        // menu 클래스 바로 하위에 있는 a 태그를 클릭했을때
+        $(".menu>a").click(function(){
+            var submenu = $(this).next("ul");
+ 
+            // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+            if( submenu.is(":visible") ){
+                submenu.slideUp();
+            }else{
+                submenu.slideDown();
+            }
+        });
+
+    $(".scroll").click(function(event){ event.preventDefault(); $('html,body').animate({scrollTop:$('html,body').offset().top}, 500); });
+    });
+</script>
+
+
+
+
+ <body>
+<div id ="fbar"   >
+
+  <div id ="menu">
+
+  <div class='fbarMenu'    >
+   <a  href="index.html">home</a></div>
+
+  <div class='fbarMenu'    >
+   <a  href="works.html">works</a></div>
+
+  
+  <div class='fbarMenu'   >
+   <a  href="about.html">about</a></div>
+
+  
+  <div class='fbarMenu'     >
+   <a  href="contact.html">contact</a></div>
+
+  
+  <div class='mainLogo'>
+   <a  href="index.html" ><img src="pic/newimage/toplogo.png"></a></div>
+
+  </div>
+
+
+  <div id = mobile > 
+  <table >
+  <tr>
+    <td id = "mlogo" >
+    <a href="index.html" ><img src="pic/newimage/toplogo.png"></a> 
+    </td>
+
+    <td id = "mmenu">
+     <ul class="mmenu_ul">
+        <li class="menu">
+           <a>MENU</a>
+            <ul class="hide" >
+                <li><a href="index.html">HOME </a></li>
+                <li><a href="works.html">WORK </a></li>
+                <li><a href="about.html">ABOUT </a></li>
+                <li><a href="contact.html">CONTACT </a></li>
+          </ul>
+        </li>
+     </ul>
+    </td>
+  </tr>
+  </table >
+  </div>
+
+  </div>
+  
+  </div>
+
+
+
+  <section id ="content" >
+
+	   <div class="companyNm">ORIGINWATER</div>
+	   <div class="goodsNm">608 Water Purifier</div>
+   
+ <section id= "text">
+			<p class = "txtKo">중국 벽수원 사의 직수연결형 탑싱크 정수기 디자인.
+싱크대 주변의 빈 공간을 사용하여 설치하는 제품으로 기존에 판매되던 제품의 업그레이드 버전이다.
+전 제품에서 있었던 불편함을 개선함과 동시에 외형적 수려함을 부여하는 작업하였다.
+활처럼 살짝 휘어진 금속수전은 풍성하고 아름다운 빛 반사를 만들어내고,
+납작한 원기둥 형으로 만들어진 바디에는 세척 가능한 3개의 필터가 삽입되어있어 간단한 방법의 커버제거로 필터 세척 및 교환을 할 수 있게 했다.
+하단 커버는 러버로 제작하여 노즐이나 파워코드 등을 숨김과 동시에 물 배관의 좌, 우 방향 전환을 가능하게 하였으며 제품의 지지력도 우수하도록 의도하였다.
+별도로 설치되는 취수 핸들은 정수와 일반수를 직관적으로 알 수 있게 하고 조작이 쉽게 하였다. </p>
+
+<p class = "txtEn">
+The design of direct connected type of top sink purifier from China Originwater Company
+It is installed using the empty space around the sink. This product is an upgraded version of the existing one to improve inconveniences and the design shape.
+The metal curved faucet which looks like a bow makes rich and beautiful light reflections.
+The flat cylindrical body has been inserted with three filters which are able to clean, so with easy way to remove the cover and possible to clean them and change the filters. 
+The bottom part of the cover has made into a rubber to hide nozzle or power code and change a  direction to any ways for the pipe and also has been intended the bearing power well itself.
+The water intake handle which has separately been installed has made for purifier water and normal intuitionally and easy to control. 
+
+
+			</p>           
+            
+	</section>
+	<img src = "pic/work/608/1.jpg">
+	<img src = "pic/work/608/2.jpg">
+	<img src = "pic/work/608/3.jpg">
+	<img src = "pic/work/608/4.jpg">
+	<img src = "pic/work/608/5.jpg">
+	<img src = "pic/work/608/6.jpg">
+	<img src = "pic/work/608/7.jpg">
+	<img src = "pic/work/608/8.jpg">
+	<img src = "pic/work/608/9.jpg">
+
+ 
+
+
+ 
+	
+</section>
+
+<!-- contain content box -->
+<div id = bbar >
+<table   width = "100%" height = "100%" >
+  <tr>
+    <td class="bottomlogoBox">
+    <a href="#" class="scroll"><img class="bottomlogo" src="pic/newimage/bottomlogo.png"/></a>
+    </td>
+    <td class="addressBox">
+      <div class="bottomAddress">
+        <div class="addressKo">(주)삭디자인 컨설팅_서울시 서초구 남부순환로337가길, 43-8(2F)</div>
+        <div class="addressEn">
+          SAQ Design Consulting Inc. 43-8, Nambusunhwan-ro 337ga-gill<br>
+        Seocho-gu Seoul Korea. 06710
+        </div>
+      </div>  
+    </td>
+    <td>
+      <div class="bottomContact">
+        <div class='imgBox'>
+        <a href="https://www.facebook.com/pg/SAQdesign/posts/"><img src="pic/newimage/facebook.png"/></a>
+        <a href="https://www.instagram.com/saqdesign_co/"><img src="pic/newimage/insta.png"/></a>
+            <a href="https://blog.naver.com/PostList.nhn?blogId=saqdesign"><img src="pic/newimage/blog.png"/></a>
+        </div> 
+        <div class="contactTxt">
+          T. +82 2 521 3581<br>
+          F. +82 2 521 3582<br>
+          M. webmaster@saqdesign.com
+        </div>
+      </div>
+    </td>
+  </tr>
+  </table >
+    </div><!--bar end -->
+   <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+ </body>
+</html>

@@ -1,0 +1,159 @@
+@font-face{font-family:'KoPubDotumMedium'; src:url('/fonts/KoPubDotumMedium.woff')}
+@font-face{font-family:'KoPubDotumMedium'; src:url('/fonts/KoPubDotumMedium.eot')}
+@font-face{font-family:'LSANS'; src:url('/fonts/LSANS.woff')}
+@font-face{font-family:'LSANS'; src:url('/fonts/LSANS.eot')}
+@font-face{font-family:'VeraBd'; src:url('/fonts/VeraBd.woff')}
+@font-face{font-family:'VeraBd'; src:url('/fonts/VeraBd.eot')}
+@font-face{font-family:'MyriadProRegular'; src:url('fonts/MyriadPro-Regular.otf')}
+@font-face{font-family:'MyriadProBold'; src:url('fonts/MyriadPro-Bold.otf')}
+
+
+/*»ó´Ü ¹Ù*/
+#fbar a:hover{color: #53565a; text-decoration: none;}
+ #fbar a:focus{color: #53565a; text-decoration: none;}
+
+#fbar{
+ z-index: 1;
+	position: fixed;
+	width: 100%;	
+	height: 88px;
+	padding: 0;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+	 }
+
+#menu {
+	font-family:'MyriadProRegular' ;
+		font-size: 18px;
+	 	color: #4c4c4c;
+	height: 100%;
+	width: 69.7%;
+	margin-left:auto;	
+	margin-right: auto;
+	text-align: left;
+	}
+.fbarMenu{
+	vertical-align: text-bottom;
+	width: 100px;
+	float: left;
+	margin-top: 40px;
+	}
+	.mainLogo{
+	vertical-align: text-bottom;
+	text-align: right;
+	width: 130px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 0.3%}
+
+	
+
+#mobile{ display: none; padding-top: 20px;padding-right: 20px;padding-left: 20px; }
+#moblie tr{width: 680px;}
+#mlogo {
+ 	width: 350px;
+	}	
+ #mlogo img{ 
+ 	width: 78px;
+ 	height: 78px;
+	}	
+#mmenu{
+ 	padding-left: 210px;
+}
+
+@media only screen and (max-width: 720px) {
+			#body,#fbar{ width: 720px; }
+			#fbar{margin-bottom: 60px;}
+			#tr{width: 720px;}
+			#menu { display: none; }
+			#fbar{position: relative;}
+		}
+
+@media only screen and (max-width: 720px) {
+			#mobile { display:inline-block; 
+ 				z-index: 4;}
+		}
+ #bbar{  
+	color: #b3b3b3;
+	width: 70%;
+	margin-top: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 130px;}
+
+#bbar .contactTxt{
+pointer-events: none;
+cursor: default;
+}
+#bbar table,#bbar table tr,#bbar table td{margin: 0;padding: 0;}
+.bottomlogoBox{
+	width: 75px;
+}
+.bottomlogo{
+	margin-right: -10px;
+	width: 55px;
+	height: 55px;
+}
+.addressBox{
+	 width: 450px;
+}
+.bottomAddress{
+	 float: left;
+}
+@media only screen and (max-width: 720px) {
+#bbar{
+	width:680px;
+	margin-bottom: 60px;}
+	.addressBox{
+	 width: 400px;
+	 visibility: hidden;
+	 color: #fff;
+	}
+
+}
+.addressKo{
+	font-family:'KoPubDotumMedium','LSANS';
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 4px;
+}
+
+.addressEn{
+	font-family:'MyriadProRegular','LSANS';
+	font-size: 15px;
+	color: #000;
+	line-height: 20px;
+}
+
+.bottomContact img{
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-left: 9px;}
+.bottomContact{
+	float: right;	
+}
+.bottomContact .imgBox{
+	width: 100%;
+	float: right;
+	margin-bottom: 10px;	
+	letter-spacing: 25px;
+}
+
+.contactTxt{
+	font-family:'MyriadProRegular','LSANS';
+	font-size: 15px;
+	color: #000;
+		text-align: right;
+}
+a > img{width : 50%; height: 50%;}		
+
+
+
+ #fbar div:link{color: skyblue; text-decoration: blink;}
+ #fbar div:active{color: skyblue; text-decoration: blink;}
+ #fbar div:visited{color: skyblue; text-decoration: blink;}
+ #fbar div:hover{color: skyblue; text-decoration: blink;}
+ #fbar div:focus{color: skyblue; text-decoration: blink;}

@@ -1,0 +1,71 @@
+
+textarea {
+  width: 100%;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65); /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-family:'MyriadProBold','LSANS' ;
+}
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+}
+#name, #email {
+  width: 50%;
+}
+input{
+  border-style: none;
+}
+
+.colBox{
+  width: 100%;
+}
+.rowL{
+  float: left;
+  width: 48%;
+}
+.rowR{
+  float: right;
+  width: 48%;
+}
+#name,#email,#Company,#Subject,#Phone{
+  border-style: none;box-shadow: none;
+}
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  margin-top: 0
+  margin-bottom:20px;
+}
+@media only screen and (max-width: 720px) {
+.rowL,.rowR{
+  width: 680px;
+  float: left; 
+  font-size: 18px;
+  line-height:26px;}
+#message,.line,input{width: 680px;}
+input,label,textarea{
+  font-size: 18px;
+  line-height:26px;}
+  button{
+  font-size:24px;
+  line-height:40px;}
+}
